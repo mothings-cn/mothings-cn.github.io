@@ -2,8 +2,7 @@
 @import url(reset.css);
 #container {
   max-width: 980px;
-  margin: 90px auto 75px;
-  padding: 0 15px; }
+  margin: 90px auto 75px; }
   @media screen and (max-width: 600px) {
     #container {
       margin-top: 20px;
@@ -73,7 +72,8 @@ body {
   clear: both; }
 
 #nav {
-  margin-bottom: 64px; }
+  margin-bottom: 64px;
+  padding: 0 15px; }
   #nav > .header {
     margin-bottom: 10px; }
     #nav > .header > .title {
